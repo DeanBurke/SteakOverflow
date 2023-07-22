@@ -31,7 +31,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-deanburke-steakoverflow-q5zd6fyybci.ws-eu101.gitpod.io', 'steakoverflow-6062ce4ca62e.herokuapp.com']
+ALLOWED_HOSTS = ['8000-deanburke-steakoverflow-q5zd6fyybci.ws-eu102.gitpod.io', 'steakoverflow-6062ce4ca62e.herokuapp.com']
 
 
 # Application definition
