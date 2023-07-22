@@ -1,11 +1,3 @@
-/**
-* Template Name: Groovin
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -582,6 +574,7 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Menu
 --------------------------------------------------------------*/
@@ -627,10 +620,6 @@ section {
   transition: 0.3s;
 }
 
-.menu .title a:hover {
-  color: #e08c25;
-}
-
 .menu .title::after {
   content: "";
   position: absolute;
@@ -645,6 +634,77 @@ section {
 .menu .description {
   line-height: 24px;
   font-size: 14px;
+}
+
+.menu >ol::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 350px;
+  height: 1.5px;
+  background: #e08c25;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+/*--------------------------------------------------------------
+# Challenge
+--------------------------------------------------------------*/
+.challenge .content {
+  padding: 30px 0;
+}
+
+.challenge .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.challenge .content p {
+  margin-bottom: 0;
+}
+
+.challenge .content .icon-box {
+  margin-top: 25px;
+}
+
+.challenge .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+.challenge .content .icon-box i {
+  font-size: 35px;
+  float: left;
+  color: #e08c25;
+}
+
+.challenge .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+.challenge .image {
+  background: url("../img/coding-challenge.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 350px;
+}
+
+@media (max-width: 991px) {
+  .challenge .image {
+    text-align: center;
+  }
+
+  .challenge .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .challenge .image img {
+    max-width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
