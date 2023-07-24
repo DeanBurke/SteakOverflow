@@ -27,3 +27,17 @@ class BookingsPending(LoginRequiredMixin, generic.ListView):
     model = Booking
     queryset = Booking.objects.filter(status=0).order_by('date')
     template_name = 'bookings-pending.html'
+
+
+class EditBooking(LoginRequiredMixin, generic.edit.UpdateView):
+    form_class = BookingForm
+    model = Booking
+    template_name = 'bookings-edit.html'
+    success_url = '/bookings'
+    
+
+    def form_valid(self, form):
+        self.object = form.save(commit=False)
+        self.object.status = 0
+        self.object.save()
+        return super().form_valid(form)

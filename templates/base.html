@@ -44,10 +44,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#challenge">Challenge</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto active" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#challenge">Challenge</a></li>
+          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#contact">Contact</a></li>
           {% if user.is_authenticated %}
           <li>
             <a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a>
