@@ -2,9 +2,34 @@
 
 {% block content %}
 
-<section id="content">
-  <h3>{{ customer.get_username</h3>
-
+<section class="booking">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mt-3 offset-md-2">
+        <h3>{{ user.get_username}}'s bookings</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 mt-3 offset-md-2">
+        <p>Please select from the below options:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 mt-3 offset-md-2">
+        <div>
+          <a href="#" aria-label="button for new booking"><button class="btn-get-started right" type="submit">New Booking</button></a>
+          <a href="#" aria-label="button for pending booking"><button class="btn-get-started right" type="submit">View Pending Bookings</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 mt-3 offset-md-2">
+        <div>
+          <h4>Upcoming Approvoed Bookings</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 {% endblock %}
