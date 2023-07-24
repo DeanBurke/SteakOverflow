@@ -17,8 +17,10 @@
     <div class="row">
       <div class="col-md-8 mt-3 offset-md-2">
         <div>
-          <a href="{% url 'bookings-new' %}" aria-label="button for new booking"><button class="btn-get-started right" type="submit">New Booking</button></a>
-          <a href="{% url 'bookings-pending' %}" aria-label="button for pending booking"><button class="btn-get-started right" type="submit">View Pending Bookings</button></a>
+          <a href="{% url 'bookings-new' %}" aria-label="button for new booking"><button class="btn-get-started right"
+              type="submit">New Booking</button></a>
+          <a href="{% url 'bookings-pending' %}" aria-label="button for pending booking"><button
+              class="btn-get-started right" type="submit">View Pending Bookings</button></a>
         </div>
       </div>
     </div>
@@ -26,6 +28,26 @@
       <div class="col-md-8 mt-3 offset-md-2">
         <div>
           <h4>Upcoming Approvoed Bookings</h4>
+        </div>
+        <div class="row">
+          {% for booking in booking_list %}
+          {% if booking.customer == user %}
+          <div class="col-12 col-md-4">
+            <div class="booking-content">
+              <p>{{ booking.reference }}</p>
+              <p>{{ booking.date }}</p>
+              <p>{{ booking.time }}</p>
+              <p>{{ booking.group_size }}</p>
+              <div>
+                <a href="{% url 'bookings-edit' booking.id %}" aria-label="edit booking button"><button
+                    class="btn-get-started right" type="submit">Edit booking</button></a>
+                <a href="{% url 'bookings-delete' booking.id %}" aria-label="cancel booking button"><button
+                    class="btn-get-started right" type="submit">Cancel booking</button></a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
     </div>

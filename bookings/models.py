@@ -12,7 +12,7 @@ class Booking(models.Model):
     group_size = models.IntegerField(
         default=1,
         validators=[
-            MaxValueValidator(100),
+            MaxValueValidator(10),
             MinValueValidator(1)
         ]
     )

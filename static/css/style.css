@@ -831,39 +831,10 @@ section {
   padding: 6px 25px 8px 25px;
 }
 
-/* .booking-content {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.booking-content p {
-  margin-bottom: 0;
-  color: #000;
-} */
-
-.contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #999;
-}
-
-.contact .contact-info a {
-  color: #000;
-}
-
-@media (min-width: 768px) {
-  .contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-
-  .contact .contact-address,
-  .contact .contact-phone,
-  .contact .contact-email {
-    padding: 20px 0;
-  }
+.delete .btn-get-started:hover {
+  background: #b82a2a;
+  border-color: #b82a2a;
+  color: #fff;
 }
 
 @media (max-width: 768px) {

@@ -41,3 +41,8 @@ class EditBooking(LoginRequiredMixin, generic.edit.UpdateView):
         self.object.status = 0
         self.object.save()
         return super().form_valid(form)
+
+class DeleteBooking(LoginRequiredMixin, generic.edit.DeleteView):
+    model = Booking
+    template_name = 'bookings-delete.html'
+    success_url = '/bookings'

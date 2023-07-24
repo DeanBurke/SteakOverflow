@@ -21,7 +21,11 @@
     </div>
     <div class="row">
       <div class="col-md-8 mt-3 offset-md-2">
+        {% if booking.status == 0 %}
+        <a href="{% url 'bookings-pending' %}" aria-label="button for back to pending bookings"><button class="btn-get-started right" type="submit">Back to pending bookings</button></a>
+        {% else %}
         <a href="/bookings" aria-label="button for back to bookings"><button class="btn-get-started right" type="submit">Back to bookings page</button></a>
+        {% endif %}
       </div>
     </div>
   </div>

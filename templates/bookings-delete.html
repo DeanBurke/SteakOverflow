@@ -15,22 +15,20 @@
       </div>
     </div>
     <div class="row">
-      {% for booking in booking_list %}
-      {% if booking.customer == user %}
       <div class="col-12 col-md-4">
         <div class="booking-content">
           <p>{{ booking.reference }}</p>
           <p>{{ booking.date }}</p>
           <p>{{ booking.time }}</p>
           <p>{{ booking.group_size }}</p>
-          <div>
-            <a href="{% url 'bookings-edit' booking.id %}" aria-label="edit booking button"><button class="btn-get-started right" type="submit">Edit booking</button></a>
-            <a href="{% url 'bookings-delete' booking.id %}" aria-label="cancel booking button"><button class="btn-get-started right" type="submit">Cancel booking</button></a>
+          <div class="delete">
+            <form method="POST">
+              {% csrf_token %}
+              <button type="submit" aria-label="delete booking button" class="btn-get-started right">Delete this booking?</button>
+            </form>
           </div>
         </div>
       </div>
-      {% endif %}
-      {% endfor %}
     </div>
   </div>
 </section>
