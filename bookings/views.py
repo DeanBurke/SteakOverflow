@@ -9,3 +9,16 @@ class BookingsApproved(LoginRequiredMixin, generic.ListView):
     model = Booking
     queryset = Booking.objects.filter(status=1).order_by('date')
     template_name = 'bookings.html'
+
+class NewBooking(LoginRequiredMixin, generic.edit.CreateView):
+    form_class = BookingForm
+    model = Booking
+    template_name = 'bookings-new.html'    
+    success_url = '/bookings'
+    
+
+    def form_valid(self, form):
+        self.object = form.save(commit=False)
+        self.object.customer = self.request.user
+        self.object.save()
+        return super().form_valid(form)
