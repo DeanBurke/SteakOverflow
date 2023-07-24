@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="booking pending-booking-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-3 ">
+        <h3>Pending bookings</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <a href="/bookings" aria-label="button for back to bookings"><button class="btn-get-started right" type="submit">Back to bookings page</button></a>
+      </div>
+    </div>
+    <div class="row">
+      {% for booking in booking_list %}
+      {% if booking.customer == user %}
+      <div class="col-12 col-md-4">
+        <div class="booking-content">
+          <p>{{ booking.reference }}</p>
+          <p>{{ booking.date }}</p>
+          <p>{{ booking.time }}</p>
+          <p>{{ booking.group_size }}</p>
+          <div class="change-booking">
+            <a href="#" aria-label="edit booking button"><button class="btn-get-started right" type="submit">Edit booking</button></a>
+            <a href="#" aria-label="cancel booking button"><button class="btn-get-started right" type="submit">Cancel booking</button></a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}

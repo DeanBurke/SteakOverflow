@@ -22,3 +22,8 @@ class NewBooking(LoginRequiredMixin, generic.edit.CreateView):
         self.object.customer = self.request.user
         self.object.save()
         return super().form_valid(form)
+
+class BookingsPending(LoginRequiredMixin, generic.ListView):
+    model = Booking
+    queryset = Booking.objects.filter(status=0).order_by('date')
+    template_name = 'bookings-pending.html'

@@ -783,31 +783,6 @@ section {
 /*--------------------------------------------------------------
 # Signup
 --------------------------------------------------------------*/
-
-/* .signup .btn-get-started {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 32px 12px 32px;
-  border-radius: 4px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #fff;
-  animation-delay: 0.8s;
-  text-transform: uppercase;
-  border: 2px solid #e08c25;
-  background: #e08c25;
-}
-
-.signup .btn-get-started:hover {
-  background: #74c92d;
-  border: 2px solid #74c92d;
-  text-decoration: none;
-} */
-
 .signup h3 {
   font-size: 32px;
   font-weight: bold;
@@ -841,12 +816,59 @@ section {
   color: #e08c25;
 }
 
-@media (max-width: 768px) {
-  .signup h3 {
-    font-size: 25px;
+.pending-booking-page button {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.booking-content {
+  border: 2px solid #e08c25;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.booking-content .btn-get-started {
+  padding: 6px 25px 8px 25px;
+}
+
+/* .booking-content {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.booking-content p {
+  margin-bottom: 0;
+  color: #000;
+} */
+
+.contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.contact .contact-info a {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
   }
-  .signup input {
-    float: right;
+
+  .contact .contact-address,
+  .contact .contact-phone,
+  .contact .contact-email {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking h3 {
+    font-size: 25px;
   }
 }
 
