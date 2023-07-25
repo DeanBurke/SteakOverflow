@@ -42,10 +42,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#challenge">Challenge</a></li>
-          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#contact">Contact</a></li>
+          <li><a class="nav-link scrollto active"
+              href="{% if page.layout == 'index' %}{% else %}/{% endif %}#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="{% if page.layout == 'index' %}{% else %}/{% endif %}#menu">Menu</a>
+          </li>
+          <li><a class="nav-link scrollto"
+              href="{% if page.layout == 'index' %}{% else %}/{% endif %}#challenge">Challenge</a></li>
+          <li><a class="nav-link scrollto"
+              href="{% if page.layout == 'index' %}{% else %}/{% endif %}#contact">Contact</a></li>
           {% if user.is_authenticated %}
           <li>
             <a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a>
@@ -81,8 +85,22 @@
   <footer id="footer">
 
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>SteakOverflow</span></strong>. All Rights Reserved
+      <div class="row">
+        <div class="copyright">
+          &copy; Copyright <strong><span>SteakOverflow</span></strong>. All Rights Reserved
+        </div>
+      </div>
+      <div class="row">
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook page(opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://youtube.com" target="_blank" rel="noopener"
+            aria-label="Visit our Youtube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+        </div>
       </div>
     </div>
   </footer><!-- End Footer -->
