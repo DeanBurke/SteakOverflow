@@ -675,7 +675,7 @@ section {
 }
 
 .challenge .image {
-  background: url("../img/coding-challenge.jpg") center center no-repeat;
+  background: url('https://res.cloudinary.com/djzciemum/image/upload/v1690128527/static/img/coding-challenge.bff913b152e0.jpg') center center no-repeat;
   background-size: cover;
   min-height: 350px;
 }
