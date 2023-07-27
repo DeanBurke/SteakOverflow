@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500,600,700|Poppins:400,500,600,700&display=swap');
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -431,6 +433,7 @@ h6 {
 #hero .carousel-container {
   display: flex;
   justify-content: center;
+  background: rgba(0, 0, 0, 0.50);
   align-items: center;
   position: absolute;
   bottom: 0;
@@ -629,6 +632,7 @@ section {
 .menu .description {
   line-height: 24px;
   font-size: 14px;
+  padding-left: 0;
 }
 
 .menu li {
