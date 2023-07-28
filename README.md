@@ -1,39 +1,26 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SteakOverflow - The Coding Steakhouse
 
-Welcome,
+[View the live project here.](https://steakoverflow-6062ce4ca62e.herokuapp.com/)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Screenshot of the sit on Am I responsive](./static/img/readme/am-i-responsive.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Welcome to SteakOverflow – Where Culinary Excellence Meets Code Mastery! Step into the world of gastronomic innovation, where sizzling steaks and cutting-edge coding unite to create an extraordinary dining experience. At SteakOverflow, we've crafted a one-of-a-kind restaurant that celebrates the art of cooking and the brilliance of programming.
 
-## Codeanywhere Reminders
+Our attentive staff is here to ensure your dining experience is nothing short of exceptional. Whether you need a recommendation from our menu or a quick tech-related chat, feel free to ask—we're more than happy to assist.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Thank you for joining us at SteakOverflow, where extraordinary steaks meet the extraordinary world of coding. May your taste buds be delighted, and may your coding dreams reach new heights with each visit. Enjoy your meal, and happy coding!
 
 ---
 
-Happy coding!
+# User Experience (UX)
+
+This website is designed to give users and future customers the ability to view the menu for all it offers, along with reading up on the coding challenge. It gives the user the ability to set up an account and create a booking which can be amended/deleted. It is then approved by an admin/member of staff.  
+
+## Intended Audience
+
+* **Coding Community**: People involved in coding communities, forums or online groups who seek novel experiences related to their interest.
+* **Foodies**: Gourmet food enthusiasts who are curious to try new and inventive culinary offerings.
+* **Tech Company Teams and Events**: Corporate teams, tech companies, or coding meetups looking for a distinctive venue to host events or team outings.
+* **Families and Friends**: People looking for a unique and entertaining dining experience to share with their loved ones.
+* **Tourists and Travelers**: Visitors to the area who want to explore local restaurants with a distinctive theme.
+* **Social Media Influencers and Bloggers**: Content creators interested in sharing their experiences at a coding-themed steakhouse with their followers.
