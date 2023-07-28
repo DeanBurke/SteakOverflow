@@ -24,3 +24,61 @@ This website is designed to give users and future customers the ability to view 
 * **Families and Friends**: People looking for a unique and entertaining dining experience to share with their loved ones.
 * **Tourists and Travelers**: Visitors to the area who want to explore local restaurants with a distinctive theme.
 * **Social Media Influencers and Bloggers**: Content creators interested in sharing their experiences at a coding-themed steakhouse with their followers.
+
+<br>
+
+# Design
+
+## Wireframes & Bootstrap Templates
+
+I used [BootstrapMade](https://bootstrapmade.com/) to locate a suitable template to fit my vision for the SteakOverflow website, then mocked up my idea on a Wireframe Design
+
+Wireframes were created for the site with [Wireframe.cc](https://wireframe.cc/)
+
+![Screenshot of home page done on Wireframe.cc](./static/img/readme/wireframe.jpg)
+
+<br>
+
+## Colour Scheme 
+
+Colour palette was created using: 
+
+* [Colormind](http://colormind.io/)
+
+![Screenshot of colour palette done on colormind.io](./static/img/readme/colormind.jpg)
+
+For the navbar bar `rgba(0, 0, 0, 0.75)` was used for some transparency. Along with `#6fc02c` for any button hover. 
+
+<br>
+
+## Typography
+
+Open Sans, Roboto and Poppins were chosen from [Google Fonts](https://fonts.google.com/).
+
+![Screenshot of Open Sans font from Google fonts](./static/img/readme/fonts-open-sans.jpg)
+
+![Screenshot of Roboto font from Google fonts](./static/img/readme/fonts-roboto.jpg)
+
+![Screenshot of Poppins font from Google fonts](./static/img/readme/fonts-poppins.jpg)
+
+<br>
+
+## Imagery
+
+Images are located only on the page. Under the navigation as the header/hero image, and also in the challenge section. 
+
+Images were took from two stock photo websites: 
+
+* [Pexels](https://www.pexels.com/)
+* [Unsplash](https://unsplash.com/)
+
+Icons were used throught the website, for buttons, menu layout, challenge section, contact seciont and for social links on the footer of the website. The icons used on the site were taken from: 
+
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://icons.getbootstrap.com/)
+
+<br>
+
+# Features
+
+## Navigation
