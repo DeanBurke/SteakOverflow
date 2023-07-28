@@ -118,3 +118,48 @@ Icons were used throught the website, for buttons, menu layout, challenge sectio
 ![Screenshot of the slide indicator on the hero section](./static/img/readme/hero-section-slide-indicator.jpg) <br>
 *Screenshot of the slide indicator on the hero section*
 
+## Menu Section
+
+* This section is split into 3 columns and 2 rows showing what is on offer at the restaurant.
+* Each section contains its own title with a [Font Awesome](https://fontawesome.com/) icon above it. Below is the dishes for said section. 
+* The starters and mains share the same icon, while dessert and beverages having unique icons. When hovered over the menu section, there is slight show behind each icon. 
+
+<br>
+
+![Screenshot of menu section](./static/img/readme/menu.jpg) <br>
+*Screenshot of the menu section*
+
+![Screenshot of the title and icon from the steak selection](./static/img/readme/menu-icon-steak.jpg) ![Screenshot of the title and icon from the dessert selection](./static/img/readme/menu-icon-dessert.jpg) ![Screenshot of the title and icon from the beverage selection](./static/img/readme/menu-icon-beverages.jpg)<br>
+*Screenshot of the title and icons from the menu section*
+
+![Screenshot of the icon from the static menu section](./static/img/readme/menu-icon.jpg) ![Screenshot of the icon from the hovered menu section](./static/img/readme/menu-icon-hover.jpg) <br>
+*Screenshot of the icons in different states from the menu section*
+
+## Challenge Section
+
+* This section explains the coding challenge that customers can attempt at the restaurant. 
+* There is a static image to the left, while information on the coding challenge provided to the right of the image. 
+* [Font Awesome](https://fontawesome.com/) icons were used once again to break up the text. 
+
+<br>
+
+![Screenshot of challenge section](./static/img/readme/challenge-section.jpg) <br>
+*Screenshot of the challenge section*
+
+## Contact Section
+
+* The contact us section is split into three columns, stating location, opening hours, email and number for the restaurant. 
+* [Bootstrap](https://icons.getbootstrap.com/) icons were used above the title of each section.
+
+<br>
+
+![Screenshot of contact section](./static/img/readme/contact.jpg) <br>
+*Screenshot of the contact section*
+
+## Footer Section
+
+*
+
+## Back to top button
+
+*
