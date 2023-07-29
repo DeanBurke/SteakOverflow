@@ -1,5 +1,34 @@
 # SteakOverflow - The Coding Steakhouse
 
+## Table of Contents
+* [User Experience (UX)](#user-experience-ux)
+    * [Intended Audience](#intended-audience)
+* [Design](#design)
+    * [Wireframes & Bootstrap Templates](#wireframes--bootstrap-templates)
+    * [Colour Scheme](#colour-scheme)
+    * [Typograpy](#typography)
+    * [Imagery](#imagery)
+* [Features](#features)
+    * [Navigation](#navigation)
+    * [Hero Section](#hero-section)
+    * [Menu Section](#menu-section)
+    * [Challenge Section](#challenge-section)
+    * [Contact Section](#contact-section)
+    * [Footer Section](#footer-section)
+    * [Back to top button](#back-to-top-button)
+    * [User Login / Register / Logout](#user-login--register--logout)
+    * [Bookings / Admin Portal](#bookings--admin-portal)
+    * [Future Features](#future-features)
+* [Testing](#testing)
+    * [Manual Testing](#manual-testing)
+    * [Future Testing](#future-testing)
+* [Bugs](#bugs)
+* [Validator Testing](#validator-testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+---
+
 [View the live project here.](https://steakoverflow-6062ce4ca62e.herokuapp.com/)
 
 ![Screenshot of the sit on Am I responsive](./static/img/readme/am-i-responsive.jpg)
@@ -378,7 +407,7 @@ There was a number of different tests done to ensure that website was working as
 
 <br> 
 
-# Validating Testing
+# Validator Testing
 
 * HTML
     * No errors were returned when running my final test of [W3C Validator](https://validator.w3.org/#validate_by_input)
@@ -428,3 +457,21 @@ This project was deployed to Heroku. Steps below.
     ![Screeshot of deployment section](./static/img/readme/heroku-3.jpg)
 
 # Credits
+
+* I used a lot of code learned from various projects throughtout the PP4 stage.
+    * Bootstrap Resume
+    * Flask walkthrough project
+    * Hello Django
+    * I Think Therefore I Blog
+* I used [Bootstrap](https://getbootstrap.com/) to help with icons various code throughout their [docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/) page. 
+* Slack was used throughout the project, as small issues arose. Previous students having similar queries really assited me as the solution was talked through my other helpful members of [Code Institute](https://codeinstitute.net/).
+* [StackOverflow](https://stackoverflow.com/) was also of great assistance throughout. The amount of detailed information was incredible to have, some issues in particular that were solved through [StackOverflow](https://stackoverflow.com/) were as following:
+    * Setting a max value for the group size was resolved with this [article](https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model/12026867#12026867).
+    * This [question](https://stackoverflow.com/questions/61187363/django-calculate-with-models-timefield) helped me get an understanding of the models.TimeField.
+    * Fixing my navbar bug on scroll to functionality working on other pages was resolved with this [article](https://stackoverflow.com/questions/47166961/how-to-navigate-between-one-scroll-page-navigation-another-page-with-bootstrap).
+* Another website that I used was [DjangoProject](https://www.djangoproject.com/). So much useful information when it came to my models.py, views.py and urls.py. In particular for the following:
+    * [Admin view](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
+    * Generic view
+        * [Display](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-display/)
+        * [Edit](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/)
+    * [Auth](https://docs.djangoproject.com/en/4.2/topics/auth/default/) & [Admin](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
