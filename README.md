@@ -316,3 +316,42 @@ There are number of feature that I want to add in the future to this project.
 * Contact form, for any users to send in queries about bookings, menu or just in general. Which will send an email to staff using EmailJS.
 * Set a requirement to have an email address, on each user account. So to have the ability of setting up a push notification alert to the user once the status has changed of their booking. 
 
+<br>
+
+# Testing
+
+There was a number of different tests done to ensure that website was working as it should:
+
+* The website was tested on a number of different browsers:
+    * Windows
+        * Firefox on Windows 10 Pro
+        * Chrome on Windows 10 Pro
+    * Android
+        * Chrome OnePlus 10
+        * Chrome Samsung Galaxy S22
+    * Apple iOS
+        * Safari iPhone SE
+* Responsiveness was tested for all pages. 
+
+## Manual Testing
+
+* Navbar:
+    * Tested to make sure it recognized on whether a user was logged in or not, resulting in showing the applicable button(s) to select from.
+
+<br>
+
+* User Login/Sign In/Logout:
+    * Tested to make sure when signing up, a user name was needed, which couldn't be a username that has been previously made. New passwords created, had to match, wouldn't let the user proceed if this failed. 
+    * When signing in, the username and password had to match, a prompt would be shown if this failed.
+    * Tested to make sure when signing up, logging in or logging out, the user is then diverted back to the home page. 
+
+<br>
+
+* Bookings:
+    * Tested to make sure the username of the the logged in user was displayed at the top of the bookings page.
+    * Tested to make sure all fields must be filled out by the user, or admin(via portal), to create a booking, or the form wouldn't be allowed to be submitted.
+    * Tested to make sure all of the user's bookings were visible, whether that be pending or approved. And they would all be displayed in the correct format and styling once the for loop is complete. 
+    * Tested to make sure once a pending booking is approved by an admin, it would no longer be visible in the pending bookings page, and be moved to the upcoming approved bookings. 
+    * Tested to make sure once the user clicks edit or delete a booking, it would bring up the relevant booking via booking id. 
+    * Tested to make sure when the user edits a booking, it is already pre loaded with all the correct information. Then when the user updates a previously approved booking, its status would revert back to booking. 
+    * Tested to make sure once a new booking was created, edited or deleted, the user would be diverted back to the bookings page. 
