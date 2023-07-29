@@ -355,3 +355,24 @@ There was a number of different tests done to ensure that website was working as
     * Tested to make sure once the user clicks edit or delete a booking, it would bring up the relevant booking via booking id. 
     * Tested to make sure when the user edits a booking, it is already pre loaded with all the correct information. Then when the user updates a previously approved booking, its status would revert back to booking. 
     * Tested to make sure once a new booking was created, edited or deleted, the user would be diverted back to the bookings page. 
+
+## Future Testing
+
+* To implement automatic testing. 
+
+<br> 
+
+# Bugs
+
+**Navbar**
+* There was an issue with the Home, Menu, Challenge and Contact button not working while on any of the other pages that weren't the home page. 
+* This was due to using a scroll-to section on the href for these choices. 
+* To get around this I used the following code found from [StackOverflow](https://stackoverflow.com/):<br>
+`{% if page.layout == 'index' %}{% else %}/{% endif %}#hero`
+* This meant that the user would now be brought to the correct location, while clicking on the mentioned buttons when they aren't on the home page.
+
+**Images on Heroku**
+* When deploying my website to heroku, there was an issue where my displaying images. 
+* From searching on Slack, amongst fellow students, some found it was easier to link through to Cloudinary website. 
+* Which is what I did, but I will revert back to review this when I have time to look into it more, as my knowledge of Cloudinary isn't the best. So as to have my code using `{% static 'img/...' %}` format. 
+
