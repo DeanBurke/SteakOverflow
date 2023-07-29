@@ -192,9 +192,127 @@ Icons were used throught the website, for buttons, menu layout, challenge sectio
 
 <br>
 
+* There are password protocols in place, to catch any incorrect information submitted when signing in or registering a new account.
+
+![Screenshot of user invalid password](./static/img/readme/user-password-invalid.jpg) <br>
+*Screenshot of user invalid password*
+
+![Screenshot of user incorrect password](./static/img/readme/user-incorrect-password.jpg) <br>
+*Screenshot of user incorrect password*
+
+![Screenshot of username or password incorrect](./static/img/readme/user-incorrect-sign-in.jpg) <br>
+*Screenshot of username or password incorrect*
+
+<br>
+
 * Once the user is logged in, the have the option of signing out, by clicking the 'logout' button in the navbar. Which will bring them to the sign out page. 
 
 <br>
 
 ![Screenshot of user sign out page](./static/img/readme/user-sign-out.jpg) <br>
 *Screenshot of the sign out page*
+
+## Bookings / Admin Portal
+
+* The user has the option of clicking on the 'BOOKINGS' navbar button or one of it's choices from the dropdown, 'Make a booking' or 'View pending bookings'.
+* This will bring the user to the relevant pages.
+* The user will be automatically prompted to login if they aren't already before preceding to each individual page. 
+
+<br>
+
+![Screenshot of navbar options for bookings](./static/img/readme/bookings.jpg) <br>
+*Screenshot of navbar options for bookings*
+
+<br>
+
+* On the bookings page, the user will be greeted with the option to make a new booking, view pending bookings(awaiting admin approval) and viw already approved bookings. 
+
+<br>
+
+![Screenshot of the bookings page](./static/img/readme/bookings-page.jpg) <br>
+*Screenshot of the bookings page*
+
+<br>
+
+* If the user wants to create a new booking. They will be brought to the new bookings page, where there is information that is required to be filled out to complete their booking.
+
+<br>
+
+![Screenshot of the new bookings page](./static/img/readme/bookings-new.jpg) <br>
+*Screenshot of the new bookings page*
+
+<br>
+
+* Once the user has submitted their booking they can view it, on the pending bookings page.
+
+<br>
+
+![Screenshot of the pending bookings page](./static/img/readme/bookings-pending.jpg) <br>
+*Screenshot of the pending bookings page*
+
+<br>
+
+* An admin to the website, manager / supervisor, will have to ability to login to the admin portal, using a "/admin" at the end of the domain. Where they will be prompted with a Username & Password login.
+
+<br>
+
+![Screenshot of the admin portal](./static/img/readme/admin-portal.jpg) <br>
+*Screenshot of the admin portal*
+
+<br>
+
+* Once logged in, the admin can create, view, edit and delete users. 
+* Along with approving bookings made by users or add bookings themselves if they've received any from emails or phone calls to the restaurant. 
+* The view can be set to descending date order to organize upcoming pending bookings, which they can judge if they have the space or not. 
+* There are filter and search functionality withing the bookings page on the admin portal.
+* The admin can revert bookings back to pending or delete altogether. 
+
+<br>
+
+![Screenshot of the bookings page on the admin portal](./static/img/readme/admin-bookings.jpg) <br>
+*Screenshot of the bookings page on the admin portal*
+
+<br>
+
+* Once the booking is approved by the admin, it will automatically appear in the user's 'Upcoming Approved Bookings'.
+
+<br>
+
+![Screenshot of the approved bookings](./static/img/readme/bookings-page-approved.jpg) <br>
+*Screenshot of the approved bookings*
+
+<br>
+
+* The user has the option to edit approved and pending bookings. 
+* Depending on the status of the booking, the back button will show either back to pending bookings, or back to the bookings page. 
+* Once the user clicks edit booking, it will load the info on the selected booking into the fields.
+* Once you update an approved booking, it will move back to a pending status, awaiting admin approval. 
+
+<br>
+
+![Screenshot of edit bookings](./static/img/readme/bookings-edit.jpg) <br>
+*Screenshot of edit bookings*
+
+<br>
+
+* If the user wants to delete a booking, they can click the cancel booking button located under each individual booking. 
+* It will bring them to a new page, and prompt the user to confirm if they want to delete the selected booking.
+
+<br>
+
+![Screenshot of delete bookings](./static/img/readme/bookings-delete.jpg) <br>
+*Screenshot of delete bookings*
+
+<br>
+
+## Future Features
+
+There are number of feature that I want to add in the future to this project. 
+
+* Manager / Supervisor page, where they can log in as admin, and remain on the website. It will have a list of all bookings, one page for pending, one for approved. It will be set up in a calendar format, where the staff member can click on a day, and it will bring up the bookings in order of the time selected. 
+* Set the max capacity for the restaurant, so once it reached for a given period (calculated by booking time + 2 hours). Any new bookings will prompt the user about the unavailability
+* Set the opening hours of the restaurant within the available time to select from when booking. 
+* Set up a social account login, where users can sign in via a social account.
+* Contact form, for any users to send in queries about bookings, menu or just in general. Which will send an email to staff using EmailJS.
+* Set a requirement to have an email address, on each user account. So to have the ability of setting up a push notification alert to the user once the status has changed of their booking. 
+
