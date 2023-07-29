@@ -397,3 +397,34 @@ There was a number of different tests done to ensure that website was working as
 
 * Python
     * Passed my code through the [PEP8 checker](https://pep8ci.herokuapp.com/) created by Code Institute, no errors found.
+
+<br>
+
+# Deployment
+
+
+This project was deployed to Heroku. Steps below.
+
+* Make sure your requirement.txt file is updated by entering "pip3 freeze > requirements.txt" into the terminal.
+
+* Create a new Heroku app.
+
+    ![Screeshot of create app on Heroku](./static/img/readme/heroku-1.jpg)
+
+* Create the config vars - Cloudinary, ElephantSQL(postgres), Secret Key.
+
+    ![Screeshot of config vars](./static/img/readme/heroku-2.jpg)
+
+* Create env.py file, make sure to have the above vars set.
+
+    ![Screeshot of env.py snippet](./static/img/readme/env-py.jpg) 
+
+* Update settings file to import env.py and make sure to set DEBUG to false. 
+
+    ![Screeshot of settings debug](./static/img/readme/settings-debug.jpg)
+
+* Link Github to Heroku for deployment and click on Deploy Branch once the respository is selected. 
+
+    ![Screeshot of deployment section](./static/img/readme/heroku-3.jpg)
+
+# Credits
