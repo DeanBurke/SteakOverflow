@@ -158,8 +158,43 @@ Icons were used throught the website, for buttons, menu layout, challenge sectio
 
 ## Footer Section
 
-*
+* The footer of the website is designed to be minimalistic and include a number of links to the different social networks attached to SteakOverflow.
+* These are displayed using icons obtained through [Font Awesome](https://fontawesome.com/).
+* These icons are clickable and will open up the respective social networks in a new page.
+
+
+![Screenshot of contact section](./static/img/readme/footer.jpg) <br>
+*Screenshot of the footer section*
+
 
 ## Back to top button
 
-*
+* A back to top button appears after the user scrolls past the Hero Section, in the bottom right of the website.
+* Like other buttons on the page, when the user highlights over it, it changes colour as shown below.  
+
+<br>
+
+![Screenshot of the back to top botton](./static/img/readme/back-to-top-button.jpg) ![Screenshot of the back to top botton hovered](./static/img/readme/back-to-top-button-hovered.jpg) <br>
+*Screenshot of the back to top button in different states *
+
+## User Login / Register / Logout
+
+* As mentioned above, in the navbar, the user is able to login to a previously made account, or register a new account with SteakOverflow
+* The user must do this so as to create a booking with the restaurant. 
+
+<br>
+
+![Screenshot of user sign in page](./static/img/readme/user-sign-in.jpg) <br>
+*Screenshot of the sign in page*
+
+![Screenshot of user sign up page](./static/img/readme/user-register.jpg) <br>
+*Screenshot of the sign up page*
+
+<br>
+
+* Once the user is logged in, the have the option of signing out, by clicking the 'logout' button in the navbar. Which will bring them to the sign out page. 
+
+<br>
+
+![Screenshot of user sign out page](./static/img/readme/user-sign-out.jpg) <br>
+*Screenshot of the sign out page*
