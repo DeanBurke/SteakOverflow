@@ -21,4 +21,3 @@ class BookingForm(forms.ModelForm):
             'time': TimeInput(attrs={'class': 'form-control'}),
             'group_size': forms.NumberInput(attrs={'class': 'form-control'}),
         }
-

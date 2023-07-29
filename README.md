@@ -376,3 +376,24 @@ There was a number of different tests done to ensure that website was working as
 * From searching on Slack, amongst fellow students, some found it was easier to link through to Cloudinary website. 
 * Which is what I did, but I will revert back to review this when I have time to look into it more, as my knowledge of Cloudinary isn't the best. So as to have my code using `{% static 'img/...' %}` format. 
 
+<br> 
+
+# Validating Testing
+
+* HTML
+    * No errors were returned when running my final test of [W3C Validator](https://validator.w3.org/#validate_by_input)
+* CSS
+    * One error returned when running my final test of [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input), due to the bootstrap template running the animation css, I've not changed anything within my code for this error:![Screenshot of Jigsaw error](./static/img/readme/jigsaw-error.jpg) <br>
+*Screenshot of Jigsaw error*
+
+<br> 
+
+* Accessibility
+    * Using lighthouse in Chrome Dev Tools, I confirmed that colors and fonts were readable against backgrounds. <br>
+     ![Screenshot of Lighthouse results](./static/img/readme/lighthouse-results.jpg)<br>
+     *Screenshot of Lighthouse results*
+     
+<br>
+
+* Python
+    * Passed my code through the [PEP8 checker](https://pep8ci.herokuapp.com/) created by Code Institute, no errors found.
